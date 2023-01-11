@@ -1,0 +1,21 @@
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.row{
+    height: 300px;
+    margin-bottom: 5px;
+}
+.second-row{
+    display: flex;
+    gap: 10px;
+    /* grid-template-columns: repeat(4, 1fr); */
+}
+/* .second-row img{
+    height: 400px;
+} */
+.second-row > div {
+    flex: 1;
+    position: relative;
+}
