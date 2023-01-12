@@ -4,18 +4,15 @@ img{
 }
 
 .row{
-    height: 300px;
+    height: 400px;
     margin-bottom: 5px;
 }
 .second-row{
     display: flex;
     gap: 10px;
-    /* grid-template-columns: repeat(4, 1fr); */
 }
-/* .second-row img{
-    height: 400px;
-} */
-.second-row > div {
+sec
+.second-row {
     flex: 1;
-    position: relative;
+    
 }
